@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
+  <title>Chess Game!</title>
+  <link href="https://images.chesscomfiles.com/proxy/d1lalstwiwz2br.cloudfront.net/images_users/tiny_mce/watcha/phpZ8f0Px/http/7e9b460073.gif" rel="icon" type="image/x-icon">
   <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -103,7 +105,7 @@
         return (
           <div>
             <div>Time: {this.state.minutes} : {this.state.seconds}</div>
-            <div>Tile: {this.state.tile}</div>
+            <div> Tile: {this.state.tiles}</div>
             <div className="board-row">
               {<p className="labels">8</p>}
               {this.renderSquare("a8")}
