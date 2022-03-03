@@ -51,7 +51,6 @@ ol, ul {
   border: none;
   color: white;
   font-size: 30px;
-  cursor: pointer;
 }
 
 .square:focus {
